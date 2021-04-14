@@ -1,0 +1,54 @@
+@import "/defaults.scss";
+
+
+h2, h3 {
+  color: $white;
+}
+
+.blog.section {
+  flex-direction: column;
+}
+.blog-post-container {
+  display: flex;
+  justify-content: center;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    max-width: 740px;
+  }
+  hr {
+    max-width: 800px;
+    margin: 30px 0px 30px 0px;
+  }
+
+  h1 {
+    padding: 0px;
+    margin: 30px 0px;
+  }
+
+
+  h3 {
+    padding: 0px;
+    margin: 0px;
+  }
+  p {
+    font-size: 20px;
+    margin: 1em 0;
+  }
+}
+
+code {
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 3px 5px;
+}
+blockquote {
+  color: #666666;
+  margin: 0;
+  padding-left: 3em;
+  border-left: 0.5em #eee solid;
+}

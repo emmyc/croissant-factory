@@ -36,11 +36,12 @@ p {
     margin-top: -10px;
   }
   h3 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 30px;
     text-indent: 2px;
     padding: 0px;
     margin: 0px;
+    color: $gray;
   }
   h4 {
     font-weight: 400;
@@ -49,104 +50,29 @@ p {
     padding-top: 40px;
     margin: 0px;
   }
+
 }
 
 .about {
-  justify-content: space-between;
+  flex-direction: column;
   p {
     max-width: 600px;
   }
 }
 
-//PROJECTS
+//EXPERIENCE (HOME)
 
-.projects {
-  flex-direction: column;
-}
-
-.project {
-  padding: 15px 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  @media screen and (max-width: $mobile-and-tablet) {
-    flex-direction: column;
-    align-items: flex-start;
+.work {
+  .experience {
+    margin-top: 20px;
   }
-}
-.project-text {
-  width: 540px;
-  .project-title {
-    display: flex;
-    align-items: center;
-  }
-  .project-icon {
-    padding-left: 15px;
-    display: flex;
-    font-size: 24px;
-    margin: 10px 0px;
-  }
-
   h3 {
-    padding-right: 10px;
-    color: $black;
-    font-weight: 700;
-    margin: 10px 0px !important;
-  }
-  p {
     margin: 0px;
-    padding: 0px;
-  }
-  @media screen and (max-width: $mobile-and-tablet) {
-    width: 340px;
+    color: $gray;
   }
 }
 
-.project-card {
-  border-radius: px;
-  background-color: #dacfff;
-  padding: 30px;
-  text-decoration: none;
-  width: 300px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 200ms ease 0s;
-  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.1);
-  margin-right: 60px;
 
-  @media screen and (max-width: $mobile-and-tablet) {
-    width: 260px;
-    height: 160px;
-    margin-bottom: 8px;
-    margin-top: 14px;
-  }
-}
-
-// .project-card:hover {
-//   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
-//   transform: scaleX(1.01) scaleY(1.01);
-// }
-
-.projects-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  @media screen and (max-width: $mobile-and-tablet) {
-    margin-top: 0px;
-  }
-}
-
-.project-title {
-  text-decoration: none;
-}
-
-.project-image {
-  img {
-    width: 320px !important;
-  }
-}
 
 // BLOG PAGE
 .blog-preview-container {

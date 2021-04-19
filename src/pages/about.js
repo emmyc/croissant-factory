@@ -15,7 +15,7 @@ export default function About({ data }) {
             data-sal-duration="700"
             data-sal-easing="ease-in-out"
           >
-            About Me.
+            more?
           </span>
         </h2>
         <p
@@ -25,8 +25,8 @@ export default function About({ data }) {
           data-sal-easing="ease-in-out"
           className="about-text"
         >
-          you are a prisoner in a croissant factory and you love it!
-          texttexttext
+          some text will go here when i find it in me to write about myself, or i might just remove this section entirely.
+          i love music, poems, art, and a lot of other things, like my friends! i have a lot of feelings that i don't know how to express so they'll probably go here 
         </p>
       </div>
     </Layout>

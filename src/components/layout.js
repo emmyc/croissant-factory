@@ -41,16 +41,16 @@ const Layout = ({ children }) => {
       <main>{children}</main>
       <footer>
         <div className="footer-text" id="footer">
-          <h2>
+          {/* <h2>
             <span>Contact</span>
           </h2>
-          {/* <p>
+          <p>
             that's it folks, you can reach me at {" "}
             <a href="mailto:emmycao@g.ucla.edu">emmycao@g.ucla.edu</a>.
            
           </p> */}
         </div>
-        <div className="socials">
+        {/* <div className="socials">
           <a href="mailto:emmycao@g.ucla.edu">
             <FaEnvelopeSquare className="social-icon" />
           </a>
@@ -63,7 +63,7 @@ const Layout = ({ children }) => {
           <a href="https://www.github.com/emmyc">
             <FaGithubSquare className="social-icon" />
           </a>
-        </div>
+        </div> */}
       </footer>
     </div>
   )

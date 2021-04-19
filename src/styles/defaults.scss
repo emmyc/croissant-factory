@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Assistant:300,400,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap");
 
 $break-mobile: 860px;
 $break-tablet: 1024px;
 $mobile-and-tablet: 1024px;
+
+$font-primary: "Crimson Text";
+$font-secondary: "Lato";
 
 $black: #282b42;
 $color-background: #1c1d21;
@@ -15,9 +17,6 @@ $light-blue: #d4e5ff;
 $dark-blue: #135e96;
 $blue: #06e;
 
-// $font-primary: "Playfair Display", serif;
-// $font-primary: 
-$font-secondary: serif;
 $section-div: 60px;
 
 main {
@@ -35,11 +34,7 @@ body {
 
 .underline {
   padding-right: 16px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 60%,
-    $light-blue 60%
-  );
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, $light-blue 60%);
 }
 
 .header {
@@ -76,7 +71,7 @@ body {
 
 //typography
 h1 {
-  font-family: $font-secondary;
+  font-family: $font-primary;
   font-weight: 800;
   font-size: 4rem;
   line-height: 1.15;
@@ -84,14 +79,14 @@ h1 {
 }
 
 h2 {
-  font-family: $font-secondary;
+  font-family: $font-primary;
   font-weight: 800;
   font-size: 2.8rem;
   line-height: 1.1;
 }
 
 h3 {
-  font-family: $font-secondary;
+  font-family: $font-primary;
   letter-spacing: 1px;
   font-size: 1.375rem;
   font-weight: 400;

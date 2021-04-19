@@ -26,8 +26,35 @@ export default function About({ data }) {
           className="about-text"
         >
           some text will go here when i find it in me to write about myself, or i might just remove this section entirely.
-          i love music, poems, art, and a lot of other things, like my friends! i have a lot of feelings that i don't know how to express so they'll probably go here 
+          i love music, poems, art, and a lot of other things, like my friends! i have a lot of feelings that i don't know how to express so they'll probably go here,
+          something about the notebook and then something about my life idk
         </p>
+
+        <div className="someday marginTop20"
+          data-sal="slide-up"
+          data-sal-delay="700"
+          data-sal-duration="700"
+          data-sal-easing="ease-in-out">
+          <h3
+            className="about-text">
+            someday, i'll
+          </h3>
+          <p>
+            - play every barre chord on the guitar 
+            <br></br>
+            - bake a cake, and decorate it too! 
+            <br></br>
+            - write a poem about gender and shapes
+            <br></br>
+            - and another poem about growing up and bittermelon
+            <br></br>
+            - write about my experiences in college
+            <br></br>
+            - talk about something i love to way too many people
+            <br></br>
+            - swim in the ocean, like actually swim
+          </p>
+        </div>
       </div>
     </Layout>
   )

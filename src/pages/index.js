@@ -48,24 +48,13 @@ export default function Index({ data }) {
           data-sal-delay="500"
           data-sal-duration="700"
           data-sal-easing="ease-in-out">
-          <p className="marginTop20">I'm Emmy; contrary to (un)popular belief, I am not the owner of a family-owned croissant factory. Currently taking some time to figure it out — I'm interested in equity in tech and education, and research on tech as a social phenomenon.</p>
-          <p className="marginTop20">I've been a small piece of many things much bigger than me — some include engineering at Facebook and Amazon, leading Creative Labs UCLA, and developing codeConnects and Qubit by Qubit.</p>
-        </div>
-
-      </div>
-      <div className="work"
-        data-sal="slide-up"
-        data-sal-delay="700"
-        data-sal-duration="700"
-        data-sal-easing="ease-in-out">
-        <h2>experiences</h2>
-        <div class="experience">
-          <h3><span className="white">Facebook</span> • Frontend Engineer Intern • Fall 2020</h3>
-          <p>man should i even do this</p>
-
+          <p className="marginTop20">I'm Emmy; contrary to (un)popular belief, I am not the owner of a family-owned croissant factory. Currently taking some time to figure things out — I'm interested in equity in tech and education, and research on tech as a social phenomenon.</p>
+          <p className="marginTop20">In the past I've been a small piece of many things much bigger than me — some include engineering at 
+          <span className="white"> Facebook </span> and <span className="white">Amazon</span>, 
+          leading &nbsp;<a href="https://www.creativelabsucla.com/">Creative Labs UCLA</a>, and developing <a href="https://codeconnects.org/">codeConnects</a>  
+          &nbsp; and &nbsp;<a href="https://www.qubitbyqubit.org/">Qubit by Qubit</a>.</p>
         </div>
       </div>
-
     </Layout>
   )
 }

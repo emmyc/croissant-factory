@@ -15,7 +15,7 @@ export default function About({ data }) {
             data-sal-duration="700"
             data-sal-easing="ease-in-out"
           >
-            more?
+            more about emmy
           </span>
         </h2>
         <p
@@ -40,22 +40,18 @@ export default function About({ data }) {
             someday, i'll
           </h3>
           <p>
-            - play every barre chord on the guitar 
-            <br></br>
-            - bake a cake, and decorate it too! 
-            <br></br>
-            - write a poem about gender and shapes
-            <br></br>
-            - and another poem about growing up and bittermelon
-            <br></br>
-            - write about my experiences in college
-            <br></br>
-            - talk about something i love to way too many people
-            <br></br>
-            - swim in the ocean, like actually swim
+            bake a cake, and decorate it too 
+            • play every barre chord 
+            • write a poem about gender and shapes
+            • and another poem about growing up and bittermelon
+            • write about my experiences in college
+            • talk about something i love to way too many people
+            • swim in the ocean, like actually swim
+            
           </p>
         </div>
       </div>
     </Layout>
   )
 }
+

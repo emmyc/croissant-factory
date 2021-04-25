@@ -11,21 +11,22 @@ export default function Blog({ data }) {
     <Layout>
       <SEO title="notebook" />
       <div className="blog section">
-        <h2>
-          <span
-            data-sal="slide-up"
-            data-sal-delay="300"
-            data-sal-duration="700"
-            data-sal-easing="ease-in-out"
-          >
-            notebook.
+        <div
+          data-sal="slide-up"
+          data-sal-delay="300"
+          data-sal-duration="700"
+          data-sal-easing="ease-in-out"
+          className="page-header">
+          <h2>
+            <span>
+              notebook.
           </span>
-        </h2>
-        <h4>
-          a blog? not quite.
-          a collection? something like that
+          </h2>
+          <h4>
+            a blog? not quite.
+            a collection? something like that
         </h4>
-
+        </div>
         <div className="blog-preview-container">
           {posts
             .filter(
@@ -36,7 +37,7 @@ export default function Blog({ data }) {
             .map(({ node: post }) => {
               return (
                 <div
-                  className="blog-preview"
+                  className="post-container"
                   key={post.id}
                   data-sal="slide-up"
                   data-sal-delay="500"
@@ -47,11 +48,14 @@ export default function Blog({ data }) {
                     to={post.frontmatter.path}
                     className="blog-preview-card"
                   >
-                    <div>
+                    <div class="post-details">
+                      <p className="date-text"> {post.frontmatter.date} </p>
                       <h3> {post.frontmatter.title} </h3>
-                      <p> {post.frontmatter.date} </p>
+                      <p className="description-text">{post.frontmatter.description}</p>
                     </div>
-                    <p>{post.frontmatter.description}</p>
+                    {/* <div className="post-excerpt">
+                      <p className="excerpt-text"> {post.excerpt}</p>
+                    </div> */}
                   </Link>
                 </div>
               )
@@ -67,7 +71,10 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 2000)
+          wordCount {
+            words
+          }
           id
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
@@ -83,6 +90,7 @@ export const pageQuery = graphql`
               }
             }
           }
+
         }
       }
     }

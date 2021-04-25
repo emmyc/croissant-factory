@@ -16,6 +16,7 @@ $light-gray: #ebecf2;
 $light-blue: #d4e5ff;
 $dark-blue: #135e96;
 $blue: #06e;
+$color-highlight: #faa700;
 
 $section-div: 60px;
 
@@ -113,11 +114,11 @@ p {
   padding: 10px 12px 10px 0px;
   outline: 0;
   &:hover {
-    color: $blue;
+    color: $color-highlight;
   }
 
   &:active {
-    color: #faa700;
+    color: $color-highlight;
   }
 
   &:focus {
@@ -189,16 +190,16 @@ footer {
 
 a {
   outline: 0;
-  color: $blue;
-  text-decoration: none;
+  color: $white;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: $dark-blue;
+  color: $color-highlight;
 }
 
 a:active {
-  color: #faa700;
+  color: $color-highlight;
 }
 
 a:focus {

@@ -1,15 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Img from "gatsby-image"
-import TagComponent from "../components/TagComponent"
 import SEO from "../components/seo"
-import { FaExternalLinkAlt, FaGithubAlt } from "react-icons/fa"
 
 export default function Index({ data }) {
-  const { edges: posts } = data.allMarkdownRemark
-  let postCounter = 0
   return (
     <Layout>
       <SEO
@@ -59,31 +53,3 @@ export default function Index({ data }) {
     </Layout>
   )
 }
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 250)
-          id
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            url
-            github
-            path
-            title
-            description
-            tags
-            thumbnail {
-              childImageSharp {
-                fluid(maxWidth: 1360) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`

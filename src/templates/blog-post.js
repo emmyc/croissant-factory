@@ -2,7 +2,6 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import "../styles/blog.scss"
-import Img from "gatsby-image"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query we'll write in a bit
@@ -17,15 +16,6 @@ export default function Template({
           <h1>{post.frontmatter.title}</h1>
           <h4>{post.frontmatter.intro}</h4>
           <hr></hr>
-          {/* {post.frontmatter.thumbnail && (
-            <div className="post-content-image">
-              <Img
-                className="kg-image"
-                fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
-                alt={post.frontmatter.title}
-              />
-            </div>
-          )} */}
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: post.html }}
@@ -45,13 +35,6 @@ export const pageQuery = graphql`
         title
         description
         intro
-        thumbnail {
-          childImageSharp {
-            fluid(maxWidth: 1360) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }

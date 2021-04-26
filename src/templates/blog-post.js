@@ -10,7 +10,7 @@ export default function Template({
   return (
     <Layout>
       <div className="blog-post-container">
-        <Helmet title={`Emmy's Blog - ${post.frontmatter.title}`} />
+        <Helmet title={`notebook | ${post.frontmatter.title}`} />
         <div className="blog-post">
           <h3>{post.frontmatter.date}</h3>
           <h1>{post.frontmatter.title}</h1>

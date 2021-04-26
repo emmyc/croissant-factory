@@ -7,13 +7,11 @@ export default function Index({ data }) {
   return (
     <Layout>
       <SEO
-        title="Home"
+        title="home"
         keywords={[
           `emmy cao`,
           `emmycao`,
           `ucla`,
-          `portfolio`,
-          `ux designer`,
           `front end`,
           `developer`,
           `engineer`,

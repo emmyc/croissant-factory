@@ -19,12 +19,12 @@ export default function Blog({ data }) {
           className="page-header">
           <h2>
             <span>
-              notebook.
+              emmy's notebook
           </span>
           </h2>
           <h4>
             a blog? not quite.
-            a collection? something like that
+            a collection? something like that.
         </h4>
         </div>
         <div className="blog-preview-container">
@@ -37,26 +37,29 @@ export default function Blog({ data }) {
             .map(({ node: post }) => {
               return (
                 <div
-                  className="post-container"
-                  key={post.id}
                   data-sal="slide-up"
                   data-sal-delay="500"
                   data-sal-duration="700"
-                  data-sal-easing="ease-in-out"
-                >
-                  <Link
-                    to={post.frontmatter.path}
-                    className="blog-preview-card"
+                  data-sal-easing="ease-in-out">
+                  <div
+                    className="post-container"
+                    key={post.id}
                   >
-                    <div class="post-details">
-                      <p className="date-text"> {post.frontmatter.date} </p>
-                      <h3> {post.frontmatter.title} </h3>
-                      <p className="description-text">{post.frontmatter.description}</p>
-                    </div>
-                    {/* <div className="post-excerpt">
+                    <Link
+                      to={post.frontmatter.path}
+                      className="blog-preview-card"
+                    >
+                      <div class="post-details">
+                        <p className="date-text"> {post.frontmatter.date} </p>
+                        <h3> {post.frontmatter.title} </h3>
+                        <p className="description-text">{post.frontmatter.description}</p>
+                      </div>
+                      {/* <div className="post-excerpt">
                       <p className="excerpt-text"> {post.excerpt}</p>
                     </div> */}
-                  </Link>
+                    </Link>
+                  </div>
+                  <hr></hr>
                 </div>
               )
             })}

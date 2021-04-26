@@ -31,20 +31,31 @@ h2, h3 {
   }
 
   h1 {
+    font-size: 3rem;
     padding: 0px;
     margin: 30px 0px;
   }
-
-
+  
   h3 {
     padding: 0px;
     margin: 0px;
+    font-size: 1.2rem;
   }
+
+  h4 {
+    font-style: italic;
+    color: $white;
+    margin: 15px 0px;
+    line-height: 1.4;
+  }
+
   p {
     font-size: 20px;
     margin: 1em 0;
     font-family: $font-primary;
+    color: $light-gray;
   }
+  
 }
 
 code {
@@ -57,7 +68,11 @@ blockquote {
   color: #666666;
   margin: 0;
   padding-left: 3em;
+  margin: 10px 0px;
   border-left: 0.5em #eee solid;
+  @media screen and (max-width: $mobile-and-tablet) {
+    padding-left: 1em;
+  }
 }
 
 

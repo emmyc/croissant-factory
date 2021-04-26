@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Emmy Cao`,
-    description: `Emmy's portfolio`,
+    title: `welcome to the croissant factory`,
+    description: `the website of emmy cao (she/they)`,
     author: `@emmyc`,
   },
   plugins: [
@@ -35,3 +35,5 @@ module.exports = {
     },
   ],
 }
+
+

@@ -3,7 +3,7 @@ path: "/moderna-love"
 date: 2021-04-26
 title: "moderna love (a poem)"
 description: "based off a tweet: \"meet cute at the vaccination clinic call that moderna love\""
-intro: "I wrote this on a night when I realized I hadn't written poetry in a very long time. Shoutout to my friend Jason pushed me to write something, anything, and gave me only 8 minutes to do it (which turned to 15 minutes, then 20, then into something I'd pick at for several weeks afterwards). I'm sitting here at 6 am, still recording for what feels like the hundredth time (which, at the time of writing this, I can't embed properly anyways). I guess this has been a lesson in accepting that perfection is asymptotic, and sooner or later I need to let go of my work." 
+intro: "I wrote this on a night when I realized I hadn't written poetry in a very long time. Shoutout to my friend Jason who pushed me to write something, anything, and gave me only 8 minutes to do it (which turned to 15 minutes, then 20, then into something I'd pick at for several weeks afterwards). I'm sitting here at 6 am, still recording for what feels like the hundredth time (which, at the time of writing this, I can't embed properly anyways). I guess this has been a lesson in accepting that perfection is asymptotic, and sooner or later I need to let go of my work." 
 tags: ["blog", "poetry"]
 ---
 <iframe

@@ -13,7 +13,7 @@ tags: ["blog", "poetry"]
   </iframe>
 
 boy meets girl for the first time\
-in the middle of the parking lot\
+in the middle of a parking lot\
 upturned soda cans, downturned eyes\
 we locked gazes in front of the vaccine line\
 our shocked faces when we saw our matching times:\

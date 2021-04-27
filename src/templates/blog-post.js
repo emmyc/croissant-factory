@@ -16,6 +16,7 @@ export default function Template({
           <h1>{post.frontmatter.title}</h1>
           <h4>{post.frontmatter.intro}</h4>
           <hr></hr>
+          {/* {post.frontmatter.audio !== null ? <audio controls><source src={post.frontmatter.audio} type="audio/mpeg"></source></audio> : null} */}
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: post.html }}
@@ -35,6 +36,7 @@ export const pageQuery = graphql`
         title
         description
         intro
+        tags
       }
     }
   }

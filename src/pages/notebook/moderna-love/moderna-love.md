@@ -3,12 +3,14 @@ path: "/moderna-love"
 date: 2021-04-26
 title: "moderna love (a poem)"
 description: "based off a tweet: \"meet cute at the vaccination clinic call that moderna love\""
-intro: "I wrote this on a night when I realized I hadn't written poetry in a very long time. Shoutout to my friend Jason who told me to write something, anything, and gave me only 8 minutes to do it (which turned to 15 minutes, then 20, then into something I'd pick at for several weeks after). I'm sitting here at 6 am, still recording for what feels like the hundredth time (which, at the time of writing this, I can't embed properly anyways). I guess this has been a lesson in accepting that perfection is asymptotic, and sooner or later I need to let go of my work." 
+intro: "I wrote this on a night when I realized I hadn't written poetry in a very long time. Shoutout to my friend Jason pushed me to write something, anything, and gave me only 8 minutes to do it (which turned to 15 minutes, then 20, then into something I'd pick at for several weeks afterwards). I'm sitting here at 6 am, still recording for what feels like the hundredth time (which, at the time of writing this, I can't embed properly anyways). I guess this has been a lesson in accepting that perfection is asymptotic, and sooner or later I need to let go of my work." 
 tags: ["blog", "poetry"]
 ---
-
-`audio: /moderna-love.mp3`
-
+<iframe
+  frameborder="0"
+  src="https://drive.google.com/file/d/1wx4LLHwz5REyK2mBk7ePet-LpWB6y0tE/preview"
+  >
+  </iframe>
 
 boy meets girl for the first time\
 in the middle of the parking lot\
@@ -29,9 +31,9 @@ a meet-cute with a sweet tooth.\
 
 
 i hope it runs through my bloodstream\
-the way you run through my mind\
+the way you run th rough my mind\
 the way i said sorry but didn't even say hi\
-the way you denied my need to apologize\
+the way you denied my need to apologize.\
 \
 (*close your eyes, and you won't feel a thing*)\
 would you wait for me?
@@ -42,15 +44,15 @@ was i right or had you left?\
 (*please wait for 15 more minutes*)\
 a sting, and then nothing.\
 \
-i'm not a fighter nor a pfizer\
+you see, i'm not a fighter nor a pfizer\
 you're the better half of a j&j\
 maybe we were destined to meet\
 but maybe it wasn't today.\
 \
 when i finally bring up the courage\
 to rip the bandaid off my arm\
-the imprint lingers like the memory\
-of the place it all starts.\
+its imprint lingers like the memory\
+of the way you stole my heart.\
 \
 perhaps it was the distance\
 perhaps it was our signs\
@@ -59,7 +61,7 @@ in a more precedented time.\
 \
 but i'll cherish our\
 hypothetical meet-cute\
-and always remember\
+and i'll always remember\
 how lovely\
 it was\
 to meet you,\

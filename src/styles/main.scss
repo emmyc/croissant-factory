@@ -104,6 +104,10 @@ p {
   a {
     text-decoration: none;
   }
+
+  @media screen and (max-width: $mobile-and-tablet) {
+    width: 100%;
+  }
 }
 
 .blog-preview-container {

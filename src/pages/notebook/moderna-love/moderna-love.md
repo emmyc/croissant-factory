@@ -31,7 +31,7 @@ a meet-cute with a sweet tooth.\
 
 
 i hope it runs through my bloodstream\
-the way you run th rough my mind\
+the way you run through my mind\
 the way i said sorry but didn't even say hi\
 the way you denied my need to apologize.\
 \

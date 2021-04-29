@@ -23,7 +23,7 @@ export default function Blog({ data }) {
           </span>
           </h2>
           <h4>
-            a blog? not quite.
+            a blog? not quite. <br></br>
             a collection? something like that.
         </h4>
         </div>

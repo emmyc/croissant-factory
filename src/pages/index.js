@@ -21,7 +21,7 @@ export default function Index({ data }) {
         <h1
           data-sal="slide-up"
           data-sal-delay="200"
-          data-sal-duration="700"
+          data-sal-duration="1000"
           data-sal-easing="ease-in-out"
         >
           <span >welcome to the
@@ -29,16 +29,16 @@ export default function Index({ data }) {
         </h1>
         <h3
           data-sal="slide-up"
-          data-sal-delay="300"
-          data-sal-duration="700"
+          data-sal-delay="400"
+          data-sal-duration="1000"
           data-sal-easing="ease-in-out"
         >
           <span className="white"><b>emmy cao</b></span> • 曹玉琦 • she/they
         </h3>
         <div
           data-sal="slide-up"
-          data-sal-delay="500"
-          data-sal-duration="700"
+          data-sal-delay="800"
+          data-sal-duration="1000"
           data-sal-easing="ease-in-out">
           <p className="marginTop20">I'm Emmy; contrary to (un)popular belief, I am not the owner of a family-owned <a href="/croissant-factory">croissant factory</a>.
           Currently taking some time to figure things out — I'm interested in equity in tech and education, and research on tech as a social phenomenon.</p>

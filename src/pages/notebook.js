@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../styles/main.scss"
 
-export default function Blog({ data }) {
+export default function Notebook({ data }) {
   const { edges: posts } = data.allMarkdownRemark
 
   return (
@@ -13,8 +13,8 @@ export default function Blog({ data }) {
       <div className="blog section">
         <div
           data-sal="slide-up"
-          data-sal-delay="300"
-          data-sal-duration="700"
+          data-sal-delay="400"
+          data-sal-duration="1000"
           data-sal-easing="ease-in-out"
           className="page-header">
           <h2>
@@ -38,8 +38,8 @@ export default function Blog({ data }) {
               return (
                 <div
                   data-sal="slide-up"
-                  data-sal-delay="500"
-                  data-sal-duration="700"
+                  data-sal-delay="800"
+                  data-sal-duration="1000"
                   data-sal-easing="ease-in-out">
                   <div
                     className="post-container"
